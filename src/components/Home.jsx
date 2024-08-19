@@ -3,13 +3,11 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import CardPizza from "./CardPizza";
 import Header from './Header'
-import Login from './Login';
 
 const Home = () => {
     return(
         <>
         <Header />
-        <Login />
         <Container>
         <Row className="mt-4">
                 <Col>

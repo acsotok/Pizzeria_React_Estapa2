@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Navegacion from './components/Navegacion'
 import Home from './components/Home'
 import Register from './components/Register'
+import Login from './components/Login'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <Navegacion />
       <Home />
+      <Login />
       <Register />
       <Footer />
     </>
